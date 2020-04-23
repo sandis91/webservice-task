@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.071276">
+<testcase classname="User logs in" name="User logs in" time="18.071276">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitions.GoogleSteps.i_login_using_email_and_password(GoogleSteps.java:24)&#13;&#10;&#9;at ✽.Given I login using email: &quot;email&quot; and password: &quot;password&quot;(login.feature:5)&#13;&#10;"><![CDATA[Given I login using email: "email" and password: "password".................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.GoogleSteps.i_login_using_email_and_password(GoogleSteps.java:24)
+	at ✽.Given I login using email: "email" and password: "password"(login.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
